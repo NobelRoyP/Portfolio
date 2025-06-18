@@ -147,8 +147,10 @@ nav ul li a:hover {
 }
 
 .badges {
-  margin-top: 1rem;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 0.4em;
 }
 
 .badge {
