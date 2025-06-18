@@ -209,15 +209,17 @@ nav ul li a:hover {
 
 .tech-stack {
   margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 0.4em;
 }
 
 .tech-badge {
-  display: inline-block;
   background-color: #a855f7;
   color: white;
-  padding: 0.3rem 0.7rem;
+  padding: 1em;
   border-radius: 15px;
-  margin-right: 0.4rem;
   font-size: 0.8rem;
 }
 
