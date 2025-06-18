@@ -254,6 +254,7 @@ nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
+  gap: 0.4em;
 }
 .technical-skills span{
   background-color: #2302ca;
@@ -261,7 +262,6 @@ nav ul li a:hover {
   font-size: 1em;
   border-radius: 20px;
   padding: 0.5em;
-  margin: 0.4em;
 }
 .soft-skills {
   flex: 1 1 300px;
@@ -275,31 +275,6 @@ nav ul li a:hover {
 
 .skill-item {
   margin-bottom: 1rem;
-}
-
-.progress-bar {
-  background-color: #e0e0e0;
-  border-radius: 10px;
-  overflow: hidden;
-  position: relative;
-  height: 20px;
-  width: 100%;
-}
-
-.progress {
-  background-color: #7c3aed;
-  height: 100%;
-  transition: width 0.3s ease;
-}
-
-.progress-bar span {
-  position: absolute;
-  right: 10px;
-  top: 0;
-  line-height: 20px;
-  color: white;
-  font-weight: bold;
-  font-size: 0.8rem;
 }
 
 .skill-card {
