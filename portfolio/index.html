@@ -3,38 +3,287 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>Nobel Roy P | Software Developer</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 </head>
 <body>
-<header>
-<nav>
-<div class="logo">Portfolio</div>
-<button class="nav-toggle" aria-label="toggle navigation">
-  <i class="fas fa-bars"></i>
+
+<!-- NAVBAR -->
+<header class="header">
+<nav class="nav container">
+
+<div class="logo">Nobel Roy</div>
+
+<button class="nav-toggle">
+<i class="fas fa-bars"></i>
 </button>
+
 <ul class="nav-links">
 <li><a href="#about">About</a></li>
 <li><a href="#projects">Projects</a></li>
 <li><a href="#skills">Skills</a></li>
 <li><a href="#contact">Contact</a></li>
 </ul>
+
 </nav>
 </header>
-<section id="hero" class="hero">
-    <div class="hero-content">
-        <h1>Hi, I'm Nobel Roy P</h1>
-        <p class="subtitle">Software Developer</p>
-        <div class="hero-buttons">
-            <a href="https://wa.me/919074881959" class="primary-button"><i class="fa-brands fa-whatsapp"></i> Get in Touch</a>
-            <a href="#projects" class="secondary-button">View Work</a>
-        </div>
-    </div>
-    <div class="hero-image">
-        <div class="avatar">
-            <img src="./Screenshot 2025-06-12 115901.png" alt="Profile Picture">
-        </div>
+
+<!-- HERO -->
+<section id="hero" class="hero container">
+
+<div class="hero-content">
+<h1>Hi, I'm Nobel Roy P</h1>
+<p class="subtitle">Software Developer</p>
+
+<div class="hero-buttons">
+<a href="https://wa.me/919074881959" class="primary-button">
+<i class="fa-brands fa-whatsapp"></i> Get in Touch
+</a>
+
+<a href="#projects" class="secondary-button">
+View Work
+</a>
+</div>
+</div>
+
+<div class="hero-image">
+<div class="avatar">
+<img src="./Screenshot 2025-06-12 115901.png" alt="Profile Picture">
+</div>
+</div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about-me">
+<h2>About Me</h2>
+
+<div class="about-content">
+<div class="about-text">
+
+<h3>Who I Am</h3>
+
+<p>
+Aspiring software developer with hands-on experience in web and app development,
+passionate about building efficient digital solutions using modern tools.
+Quick learner and team player eager to contribute to innovative tech projects.
+</p>
+
+<div class="badges">
+<span class="badge">Creative Thinker</span>
+<span class="badge">Problem Solver</span>
+<span class="badge">Detail Oriented</span>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="my-projects">
+<h2>My Projects</h2>
+
+<div class="projects-grid">
+
+<!-- PROJECT 1 -->
+<div class="project-card">
+<div class="project-icon"><i class="fab fa-react"></i></div>
+<h3>Nstores using React.js</h3>
+<p>Built an E-commerce application using React.js, HTML, CSS, and JavaScript</p>
+
+<div class="tech-stack">
+<span class="tech-badge">React</span>
+<span class="tech-badge">Firebase firestore</span>
+<span class="tech-badge">HTML5</span>
+<span class="tech-badge">CSS3</span>
+<span class="tech-badge">JavaScript</span>
+</div>
+
+<div class="project-links">
+<a href="https://nstores.netlify.app/">View Project</a>
+<a href="https://github.com/NobelRoyP/Nstore">Source Code</a>
+</div>
+</div>
+
+<!-- PROJECT 2 -->
+<div class="project-card">
+<div class="project-icon"><i class="fas fa-robot"></i></div>
+<h3>NobsterAI - AI Chatbot</h3>
+<p>Cross-platform AI chatbot using Flutter with AI APIs.</p>
+
+<div class="tech-stack">
+<span class="tech-badge">Flutter</span>
+<span class="tech-badge">Gemini API</span>
+</div>
+
+<div class="project-links">
+<a href="https://drive.google.com/file/d/17LGfRH2YKZKqi9NDl71N5Kilqa98Uri3/view">View Project</a>
+<a href="https://github.com/NobelRoyP/NobsterAI">Source Code</a>
+</div>
+</div>
+
+<!-- PROJECT 3 -->
+<div class="project-card">
+<div class="project-icon"><i class="fas fa-tasks"></i></div>
+<h3>Event Management Web App</h3>
+<p>Django-based platform for managing event services.</p>
+
+<div class="tech-stack">
+<span class="tech-badge">Python</span>
+<span class="tech-badge">Django</span>
+<span class="tech-badge">Sqlite3</span>
+</div>
+
+<div class="project-links">
+<a href="https://github.com/NobelRoyP/Event-management/">View Project</a>
+<a href="https://github.com/NobelRoyP/Event-management/">Source Code</a>
+</div>
+</div>
+
+<!-- PROJECT 4 -->
+<div class="project-card">
+<div class="project-icon"><i class="fas fa-laptop-code"></i></div>
+<h3>Portfolio Website</h3>
+<p>Personal portfolio with responsive design.</p>
+
+<div class="tech-stack">
+<span class="tech-badge">HTML5</span>
+<span class="tech-badge">CSS3</span>
+<span class="tech-badge">JavaScript</span>
+</div>
+
+<div class="project-links">
+<a href="https://nobelroyp.netlify.app/">View Project</a>
+<a href="https://github.com/NobelRoyP/Portfolio">Source Code</a>
+</div>
+</div>
+
+<!-- PROJECT 5 -->
+<div class="project-card">
+<div class="project-icon"><i class="fab fa-react"></i></div>
+<h3>Mini Project using React.js + Vite</h3>
+
+<div class="tech-stack">
+<span class="tech-badge">React + Vite</span>
+<span class="tech-badge">Firebase firestore</span>
+</div>
+
+<div class="project-links">
+<a href="https://fonshopp.netlify.app/">View Project</a>
+<a href="https://github.com/NobelRoyP/Phone-shop-project">Source Code</a>
+</div>
+</div>
+
+<!-- PROJECT 6 -->
+<div class="project-card">
+<div class="project-icon"><i class="fab fa-react"></i></div>
+<h3>Adsiwall Webapp using React.js</h3>
+
+<div class="tech-stack">
+<span class="tech-badge">React</span>
+<span class="tech-badge">Firebase firestore</span>
+</div>
+
+<div class="project-links">
+<a href="https://adsiwallofficial.netlify.app/">View Project</a>
+<a href="https://github.com/NobelRoyP/ADSiWALL-REACT-APP">Source Code</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="my-skills">
+<h2>My Skills</h2>
+
+<div class="technical-skills">
+<span>Java</span>
+<span>C++</span>
+<span>Python</span>
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>React</span>
+<span>Django</span>
+<span>n8n Automation</span>
+<span>Node.js</span>
+<span>UI/UX</span>
+<span>Android</span>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-me">
+<h2>Contact Me</h2>
+
+<div class="contact-container">
+
+<div class="contact-info">
+<p><strong>Email:</strong> nobelroyp11a@gmail.com</p>
+<p><strong>Phone:</strong> +91 9074881959</p>
+
+<div class="social-links">
+<a href="https://www.linkedin.com/in/nobel-roy-p-290267304"><i class="fab fa-linkedin"></i></a>
+<a href="https://www.instagram.com/nobel_roy_p/"><i class="fab fa-instagram"></i></a>
+<a href="https://github.com/NobelRoyP"><i class="fab fa-github"></i></a>
+</div>
+</div>
+
+<div class="contact-form">
+<form method="post" action="https://formsubmit.co/nobelroyinfinix@gmail.com">
+
+<input type="text" name="name" placeholder="Full Name" required>
+<input type="email" name="email" placeholder="Email Address" required>
+<input type="text" name="subject" placeholder="Subject">
+<textarea name="message" placeholder="Message" required></textarea>
+
+<button type="submit" class="primary-button">Send Message</button>
+
+</form>
+</div>
+
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<h3>Nobel Roy P</h3>
+<p>Software Developer</p>
+
+<div class="footer-social">
+<a href="https://www.linkedin.com/in/nobel-roy-p-290267304"><i class="fab fa-linkedin"></i></a>
+<a href="https://www.instagram.com/nobel_roy_p/"><i class="fab fa-instagram"></i></a>
+<a href="https://github.com/NobelRoyP"><i class="fab fa-github"></i></a>
+</div>
+
+<p>© 2025 Nobel Roy P. All rights reserved.</p>
+</footer>
+
+<!-- JS -->
+<script>
+document.querySelectorAll('nav a').forEach(anchor => {
+anchor.addEventListener('click', function(e){
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+});
+});
+
+const navToggle = document.querySelector('.nav-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+navToggle.addEventListener('click',()=>{
+navLinks.classList.toggle('nav-links-visible');
+});
+</script>
+
+</body>
+</html>        </div>
     </div>
 </section>
 
@@ -351,4 +600,5 @@
 </script>
 </body>
 </html>
+
 
